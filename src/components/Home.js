@@ -6,7 +6,7 @@ const Home = () => {
     const date = new Date();
 
     return(
-    <div>
+    <div style={{ height : 100+'vh }}>
         <div className="heading">
           <p className="date">{date.getDate()+' - '+date.getMonth()+' - '+date.getFullYear()}</p>
           <h1>Triangles</h1> 
