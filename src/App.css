@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  padding:2px;
+}
+
+body{
+  font-family: chalk;
+  color: white;
+  background : url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm19-card-05-blendingspace.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=875751dfb8284d76b878668a10d77269');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button,input{
+  background-color : inherit;
+  border: 2px solid white;
+  padding:4px;
+  color:white;
+}
+
+.link-box{
+  display: grid;
+    grid-template-columns: 15rem 15rem;
+    grid-template-rows: 7rem 7rem;
+    grid-gap: 3rem;
+    margin-top: 5rem; 
+    justify-content: center;
+}
+
+.link-box > div{
+  border:1px solid white;
+  padding:15px;
+  color : white;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover, .link-box > div:hover{
+  cursor: pointer;
+  background : white;
+  color : black;
+}
+
+.heading{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px;
+}
+
+.heading > *{
+  margin : 0;
+}
+
+@font-face {
+  font-family: 'chalk';
+  src: url('./assets/Chalk.ttf');
+}
+
+@media(max-width: 625px) {
+  .link-box {
+    grid-gap: 2rem;
+    grid-template-columns : auto;
+    grid-template-rows  : auto;
+  }
+}
+
+
