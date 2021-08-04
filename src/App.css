@@ -63,6 +63,14 @@ button:hover, .link-box > div:hover{
     grid-template-columns : auto;
     grid-template-rows  : auto;
   }
+  
+  .heading{
+    margin: 20px 0;
+  }
+  
+  .heading > p{
+    font-size: 11px;
+  }
 }
 
 
